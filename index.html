@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>桌面待办</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>我的待办</h1>
+        <p>添加任务、标记完成、删除任务，自动本地保存</p>
+      </header>
+
+      <section class="composer">
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="例如：晚上 8 点跑步 30 分钟"
+          maxlength="120"
+        />
+        <button id="add-btn">添加</button>
+      </section>
+
+      <section class="toolbar">
+        <span id="stats">0 项待办</span>
+        <button id="clear-completed-btn" class="ghost">清除已完成</button>
+      </section>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </main>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "desktop-todo-app",
+  "version": "1.0.0",
+  "description": "A simple desktop todo app built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "todo",
+    "desktop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^42.0.0"
+  }
+}
