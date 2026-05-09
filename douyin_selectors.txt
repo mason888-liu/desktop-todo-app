@@ -1,0 +1,583 @@
+=== 抖店选择器记录 ===
+2026-05-09T12:41:16.921Z
+
+
+## 步骤1: 页面导航
+  URL: https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Title: 首页
+  Time: 2026-05-09T12:41:34.359Z
+
+--- 点击 #1 ---
+  URL:         https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Tag:         DIV
+  Text:        切换组织/店铺
+  Class:       index_descTitle__IpE5P
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: index_descHeader__1trqn
+
+--- 点击 #2 ---
+  URL:         https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Tag:         DIV
+  Text:        豫南缘大胜蛋类专卖店
+  Class:       index_introName__fRtLx
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: index_intro__yMXYc
+
+## 步骤2: 页面导航
+  URL: https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Title: 首页
+  Time: 2026-05-09T12:41:51.038Z
+
+--- 点击 #3 ---
+  URL:         https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Tag:         A
+  Text:        发货中心
+  Class:       style_title__1KAmO
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        https://fxg.jinritemai.com/ffa/morder/logistics/ewaybill-delivery
+  Data-TestID: 
+  ParentClass: style_titleContainer__3ABSo
+
+--- 点击 #4 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/logistics/ewaybill-delivery?btm_ppre=a0.b0.c0.d0&btm_pre=a2427.b76571.c902327.d871297&btm_show_id=da6855dc-092d-4131-87d4-cad90ba3f77e
+  Tag:         SPAN
+  Text:        厂商代发
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-space-item
+
+--- 点击 #5 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 输入 #1 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  Value:       60g
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #6 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         BUTTON
+  Text:        查询
+  Class:       auxo-btn auxo-btn-dashed auxo-btn-sm
+  Type:        submit
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: styles-module_footer__oqO6H
+
+--- 点击 #7 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         SPAN
+  Text:        仅展示有备注的订单
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-checkbox-wrapper style_checkbox-filter__Qszlj
+
+--- 点击 #8 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-checkbox-input
+  Type:        checkbox
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-checkbox
+
+--- 输入 #2 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       
+  Class:       auxo-checkbox-input
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #9 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-checkbox-input
+  Type:        checkbox
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-checkbox
+
+--- 输入 #3 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       
+  Class:       auxo-checkbox-input
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #10 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         SPAN
+  Text:        批量分配
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-btn
+
+--- 点击 #11 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-select-selection-search-input
+  Type:        search
+  Placeholder: 
+  ID:          distr_shop_id
+  Name:        
+  ARIA Label:  
+  Role:        combobox
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-select-selection-search
+
+--- 点击 #12 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         DIV
+  Text:        我老家官方旗舰店
+  Class:       auxo-select-item auxo-select-item-option auxo-select-item-option-active
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: rc-virtual-list-holder-inner
+
+--- 点击 #13 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         SPAN
+  Text:        分配
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-btn auxo-btn-primary
+
+--- 点击 #14 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         DIV
+  Text:        切换组织/店铺
+  Class:       index_descTitle__IpE5P
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: index_descHeader__1trqn
+
+--- 点击 #15 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=cceecf1a-d0f9-4a89-8499-ff32dd5df448
+  Tag:         DIV
+  Text:        子账号 企业店 正常营业
+  Class:       index_introDesc__2N8WR
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: index_intro__yMXYc
+
+## 步骤3: 页面导航
+  URL: https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Title: 首页
+  Time: 2026-05-09T12:42:51.132Z
+
+--- 点击 #16 ---
+  URL:         https://fxg.jinritemai.com/ffa/mshop/homepage/index
+  Tag:         A
+  Text:        发货中心
+  Class:       style_title__1KAmO
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        https://fxg.jinritemai.com/ffa/morder/logistics/ewaybill-delivery
+  Data-TestID: 
+  ParentClass: style_titleContainer__3ABSo
+
+--- 点击 #17 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/logistics/ewaybill-delivery?btm_ppre=a0.b0.c0.d0&btm_pre=a2427.b76571.c902327.d871297&btm_show_id=2ad0b2dd-43b2-44d1-97d0-35cf840874c8
+  Tag:         SPAN
+  Text:        厂商代发
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-space-item
+
+--- 点击 #18 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 输入 #4 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  Value:       8. 可生吞谷物土鸡蛋6枚”
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #19 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         SPAN
+  Text:        查询
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-btn auxo-btn-dashed auxo-btn-sm
+
+--- 点击 #20 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #21 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #22 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #23 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #24 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #25 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #26 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #27 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #28 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 点击 #29 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Text:        
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-sp-input
+
+--- 输入 #5 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 请输入商品名/ID
+  Value:       可生吞谷物土鸡蛋6枚
+  Class:       auxo-input auxo-input-sm auxo-input-borderless styles-module_input__yZafD auxo-label-wrapper-component
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #30 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         SPAN
+  Text:        查询
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-btn auxo-btn-dashed auxo-btn-sm
+
+--- 点击 #31 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         SPAN
+  Text:        近7日未分配
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-btn style_button__Di8NJ
+
+--- 点击 #32 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         A
+  Text:        2
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-pagination-item auxo-pagination-item-2
+
+--- 点击 #33 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         A
+  Text:        3
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: auxo-pagination-item auxo-pagination-item-3
+
+--- 点击 #34 ---
+  URL:         https://fxg.jinritemai.com/ffa/morder/dropshiping?btm_ppre=a2427.b76571.c902327.d871297&btm_pre=a2427.b76571.c902327.d608306&btm_show_id=8f2601b7-4494-4f26-93c9-0c8344d9180f
+  Tag:         BUTTON
+  Text:        近7日已分配未回传 0
+  Class:       auxo-btn style_button__Di8NJ
+  Type:        button
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: style_content__LRahO

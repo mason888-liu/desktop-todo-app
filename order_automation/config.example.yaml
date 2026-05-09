@@ -1,0 +1,119 @@
+# 复制为 config.yaml 后填写。敏感信息不要提交到 git。
+#
+# 安装与运行（在仓库根目录 E:\first_cc）:
+#   pip install -r order_automation/requirements.txt
+#   playwright install chromium
+#   copy order_automation\config.example.yaml order_automation\config.yaml
+#   （编辑 config.yaml 填写 dgj_url / douyin_url）
+#   python -m order_automation.main               # 执行全流程（默认无 auth 时会暂停等你回车）
+#
+# 店管家实际技术栈: wu-* / layui-* 自定义框架（非 Ant Design）
+# 选择器优先级: ID > name 属性 > CSS class > 文本内容
+
+headless: false
+slow_mo: 80                                     # 毫秒，稳定后可改为 0
+default_timeout_ms: 25000
+navigation_timeout_ms: 60000
+verify_timeout_ms: 10000
+
+# 可观测性
+screenshot_on_step: true
+screenshot_on_failure: true
+json_log: true
+
+# 可选：首次手动登录后保存登录态
+storage_state: ""
+
+# 店管家分销代发后台入口（含 sid 参数自动跳转 fxali.dgjapp.com）
+dgj_url: "https://tfxportal.dgjapp.com/FFAccount?message=%e7%a5%96%e5%9b%bd%e6%94%be%e5%bf%83%e8%9b%8b&sid=175409186&pt=TouTiao&to"
+
+# 抖店 / 抖音电商后台
+douyin_url: "https://fxg.jinritemai.com/"
+
+# 店管家「待发货」筛选行里「全部订单」的第 N 个可见元素（0 起算）
+dgj_all_orders_nth: 2
+
+# ---------------------------------------------------------------------------
+# 标签 / 文案 / 选择器配置 —— 根据实际页面调整
+# 元素 ID（最稳定）直接内联在流程代码中，此处配置可变文案与 name 属性
+# ---------------------------------------------------------------------------
+labels:
+  dgj:
+    # -- 导航 --
+    order_management: "订单管理"
+    all_orders: "所有订单"
+
+    # -- 同步 --
+    sync_trigger: "自动同步中"                  # 点击触发同步的 span
+    syncing_hint: "同步订单中"                  # 等待此文案出现再消失
+
+    # -- 订单列表页 --
+    tab_pending_ship: "待发货"                  # 状态标签页
+    tab_pending_review: "待审核"
+
+    # 筛选条件
+    order_type_select: "AgentOrder"             # <select name="AgentOrder">
+    order_type_self: "selforder"                # option value: 自营订单
+
+    product_code: "商品编码"                     # 对应 <input name="ProductCargoNumber">
+    product_name: "商品名称"                     # 对应 <input name="ProductSubject">
+    province_select: "selectToProvince"          # <select id="selectToProvince">
+
+    query: "查询"                                # <button id="SeachConditions">
+    reset: "重置"                                # <button id="ResetConditions">
+
+    # 省份选项（可预存自定义地址后出现）
+    province_heilongjiang: "黑龙江,吉林,云南"
+
+    # -- 批量操作按钮（<li> 元素，class 名区分功能）--
+    batch_reject_review: "批量退审"              # class="CheckOrder"
+    batch_assign_factory: "批量指定厂家"          # class="ManualCheck WxVideo_Supplier_hide"
+    batch_seller_note: "批量卖家备注"             # class="UpdateOrderSellerRemark WxVideo_Supplier_hide"
+
+    # -- 分配厂家弹窗（layui 弹层，非 Ant Modal）--
+    factory_radio_supplier: "厂家供货"            # <input name="supplier-type-rdo" value="supplier">
+    factory_dropdown_all: "全部厂家"              # class="selectMore"
+    factory_search_placeholder: "搜索内容"         # class="selectWrap-search-input"
+    factory_chenpo_label: "13081481466(陈坡乡-土鸡蛋)"
+    factory_yangjian_label: "15319999189(70-杨建晋龙)"
+    confirm_btn: "确定"                          # class="layui-layer-btn0"
+
+    # -- 卖家备注弹窗 --
+    seller_note_textarea: "txt_area_seller_remark_flag"   # textarea id
+    save_btn: "保存"                             # class="layui-layer-btn0"
+
+    # -- 业务数据 --
+    code_jd_suffix: "-JD"
+    code_chenpo: "陈坡"
+    name_60g: "60g"
+    note_egg: "发富硒虫草蛋普快稻壳，枚数以具体规格为准"
+    note_sf: "发顺丰"
+
+    # 全选复选框 id="allcheckorder"（流程代码直接使用，不通过此配置）
+
+  douyin:
+    select_all: "全选"
+    name_60g: "60g"
+    shop_hover_trigger: ""
+    order_ship: "订单发货"
+    ship_center: "发货中心"
+    factory_dropship: "厂家代发"
+    dropship_orders: "代发订单"
+    order_status: "订单状态"
+    status_pending_ship: "待发货"
+    dropship_status: "代发状态"
+    status_unassigned: "未分配"
+    after_sale_status: "售后状态"
+    after_sale_all: "全部"
+    query: "查询"
+    only_with_remark: "仅展示有备注的订单"
+    product_name: "商品名"
+    spec: "规格"
+    batch_assign: "批量分配"
+    factory_wojia: "我老家官方旗舰店"
+    factory_yangui: "燕归谷"
+    shop_switch: "切换店铺"
+    shop_yunan: "豫南缘"
+    shop_baixing: "百姓安心蛋"
+    long_product_title: "京东上门20/30/40枚新鲜高山散养富硒虫草蛋可生吞谷物土鸡蛋6枚"
+    spec_trial: "6枚试吃装"

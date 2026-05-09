@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(pip --version)",
+      "Bash(pip3 --version)",
+      "Bash(npx playwright *)",
+      "Bash(python -c \"import playwright; print\\(playwright.__version__\\)\")",
+      "Bash(python -c \"import selenium; print\\(selenium.__version__\\)\")",
+      "Read(//c/Users/Administrator/Desktop//**)",
+      "Read(//c/Users/Administrator/Downloads//**)",
+      "Bash(\"C:/Users/Administrator/AppData/Local/Tabbit Browser/Application/Tabbit Browser.exe\" --version)",
+      "Read(//c/Users/Administrator/AppData/Local/Tabbit Browser/User Data/**)",
+      "Read(//c/Users/Administrator/AppData/Local/Tabbit Browser/**)",
+      "Bash(tasklist)",
+      "Bash(python *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node *)"
+    ]
+  }
+}

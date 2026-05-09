@@ -1,0 +1,1097 @@
+=== DJG 店管家选择器记录 ===
+2026-05-09T11:02:20.348Z
+
+
+--- 输入 #1 ---
+  URL:         https://tfxportal.dgjapp.com/FFAccount?message=%e7%a5%96%e5%9b%bd%e6%94%be%e5%bf%83%e8%9b%8b&sid=175409186&pt=TouTiao&to
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 输入手机号码
+  Value:       17623033473
+  Class:       
+  ID:          loginTelePhone
+  Name:        
+  ARIA Label:  
+
+--- 输入 #2 ---
+  URL:         https://tfxportal.dgjapp.com/FFAccount?message=%e7%a5%96%e5%9b%bd%e6%94%be%e5%bf%83%e8%9b%8b&sid=175409186&pt=TouTiao&to
+  Tag:         INPUT
+  Type:        password
+  Placeholder: 密码由数字、字母或特殊符号组成
+  Value:       928221150liu
+  Class:       
+  ID:          loginPassword
+  Name:        
+  ARIA Label:  
+
+## 步骤1: 页面导航
+  URL: https://tfxportal.dgjapp.com/FFAccount?message=%e7%a5%96%e5%9b%bd%e6%94%be%e5%bf%83%e8%9b%8b&sid=175409186&pt=TouTiao&to
+  Title: 登录
+  Time: 2026-05-09T11:02:32.470Z
+
+--- 点击 #1 ---
+  URL:         https://tfxportal.dgjapp.com/FFAccount?message=%e7%a5%96%e5%9b%bd%e6%94%be%e5%bf%83%e8%9b%8b&sid=175409186&pt=TouTiao&to
+  Tag:         DIV
+  Text:        登录
+  Class:       registerInto-button
+  Type:        
+  Placeholder: 
+  ID:          login_btn
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: registerInto
+
+## 步骤2: 页面导航
+  URL: https://fxali.dgjapp.com/GeneralizeIndex/?token=30D5679132ED36B60AAB8D1A052E7BD9
+  Title: 首页-17623033473
+  Time: 2026-05-09T11:02:39.980Z
+
+--- 点击 #2 ---
+  URL:         https://fxali.dgjapp.com/GeneralizeIndex/?token=30D5679132ED36B60AAB8D1A052E7BD9
+  Tag:         A
+  Text:        所有订单
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        https://fxali.dgjapp.com/Common/Page/NewOrder-AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3
+  Data-TestID: 
+  ParentClass: concatLayout-nav-child-item 
+
+## 步骤3: 页面导航
+  URL: https://fxali.dgjapp.com/Common/Page/NewOrder-AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3
+  Title: 分销代发-17623033473
+  Time: 2026-05-09T11:02:45.206Z
+
+--- 点击 #3 ---
+  URL:         https://fxali.dgjapp.com/Common/Page/NewOrder-AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3
+  Tag:         SPAN
+  Text:        自动同步中
+  Class:       noColor hide
+  Type:        
+  Placeholder: 
+  ID:          syncing_text
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: autoSyncBtnLeft wu-tooltip
+
+--- 点击 #4 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        待发货（平台单47/拆单后47）
+  Class:       active
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-mynav
+
+--- 点击 #5 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        全部订单 自营订单 代发订单 预付款(无需打印)
+  Class:       AgentOrder wu-f14
+  Type:        select-one
+  Placeholder: 
+  ID:          
+  Name:        AgentOrder
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchshow wu-selectSystemWrap2 wxsupplierfxHide
+
+--- 输入 #3 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Type:        select-one
+  Placeholder: 
+  Value:       selforder
+  Class:       AgentOrder wu-f14
+  ID:          
+  Name:        AgentOrder
+  ARIA Label:  
+
+--- 点击 #6 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        全部订单 自营订单 代发订单 预付款(无需打印)
+  Class:       AgentOrder wu-f14 activeInput
+  Type:        select-one
+  Placeholder: 
+  ID:          
+  Name:        AgentOrder
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchshow wu-selectSystemWrap2 wxsupplierfxHide
+
+--- 点击 #7 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #8 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       Product
+  Type:        checkbox
+  Placeholder: 
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: flexAJ wu-checkboxWrap
+
+--- 输入 #4 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       on
+  Class:       Product
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+
+--- 点击 #9 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量退审
+  Class:       CheckOrder
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #10 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        重置
+  Class:       layui-btn layui-btn-primary wu-btn wu-btn-mid wu-primary
+  Type:        button
+  Placeholder: 
+  ID:          ResetConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #11 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        待审核
+  Class:       
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        javascript:;
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #12 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #13 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       ProductCargoNumberInput MultipleQuery
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchTooltipWrap
+
+--- 输入 #5 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  Value:       -JD
+  Class:       ProductCargoNumberInput MultipleQuery
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+
+--- 点击 #14 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        所有省份 自定义地址 包含：黑龙江,吉林,云南 包含：甘肃 包含：甘肃,黑龙江,吉林,辽宁,宁夏,青海 包含：北京,深圳,上海 包含：海南
+  Class:       ToProvince
+  Type:        select-one
+  Placeholder: 
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: search_one_labelOne wu-selectSystemWrap2
+
+--- 输入 #6 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Type:        select-one
+  Placeholder: 
+  Value:       黑龙江,吉林,云南
+  Class:       ToProvince
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+
+--- 点击 #15 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        所有省份 自定义地址 包含：黑龙江,吉林,云南 包含：甘肃 包含：甘肃,黑龙江,吉林,辽宁,宁夏,青海 包含：北京,深圳,上海 包含：海南
+  Class:       ToProvince activeInput
+  Type:        select-one
+  Placeholder: 
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: search_one_labelOne wu-selectSystemWrap2
+
+--- 点击 #16 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #17 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       Product
+  Type:        checkbox
+  Placeholder: 
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: flexAJ wu-checkboxWrap
+
+--- 输入 #7 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       on
+  Class:       Product
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+
+--- 点击 #18 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量卖家备注?
+  Class:       UpdateOrderSellerRemark WxVideo_Supplier_hide
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #19 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         TEXTAREA
+  Text:        
+  Class:       
+  Type:        textarea
+  Placeholder: 请输入备注信息
+  ID:          txt_area_seller_remark_flag
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new_reamrk_box
+
+--- 输入 #8 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         TEXTAREA
+  Type:        textarea
+  Placeholder: 请输入备注信息
+  Value:       发富硒虫草蛋普快稻壳，枚数以具体规格为准
+  Class:       
+  ID:          txt_area_seller_remark_flag
+  Name:        
+  ARIA Label:  
+
+--- 点击 #20 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        保存
+  Class:       layui-layer-btn0
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-layer-btn layui-layer-btn-
+
+--- 点击 #21 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量指定厂家
+  Class:       ManualCheck WxVideo_Supplier_hide
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #22 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SPAN
+  Text:        厂家供货
+  Class:       wu-mL4
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: wu-radioWrap wu-yCenter wu-hover
+
+--- 点击 #23 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       
+  Type:        radio
+  Placeholder: 
+  ID:          
+  Name:        supplier-type-rdo
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: wu-radioWrap wu-yCenter wu-hover
+
+--- 输入 #9 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        radio
+  Placeholder: 
+  Value:       supplier
+  Class:       
+  ID:          
+  Name:        supplier-type-rdo
+  ARIA Label:  
+
+--- 点击 #24 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         DIV
+  Text:        全部厂家
+  Class:       selectMore
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: Supplier selectWrap wu-form-mid wu-select-skin
+
+--- 点击 #25 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       selectWrap-search-input
+  Type:        text
+  Placeholder: 搜索内容
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: electWrap_search_wrap
+
+--- 输入 #10 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 搜索内容
+  Value:       陈坡
+  Class:       selectWrap-search-input
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #26 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LABEL
+  Text:        13081481466(陈坡乡-土鸡蛋)
+  Class:       radio-label
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: list isRadio
+
+--- 点击 #27 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        确定
+  Class:       layui-layer-btn0
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-layer-btn layui-layer-btn-
+
+--- 点击 #28 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        所有省份 自定义地址 包含：黑龙江,吉林,云南 包含：甘肃 包含：甘肃,黑龙江,吉林,辽宁,宁夏,青海 包含：北京,深圳,上海 包含：海南
+  Class:       ToProvince activeInput
+  Type:        select-one
+  Placeholder: 
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: search_one_labelOne wu-selectSystemWrap2
+
+--- 输入 #11 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Type:        select-one
+  Placeholder: 
+  Value:       
+  Class:       ToProvince activeInput
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+
+--- 点击 #29 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SELECT
+  Text:        所有省份 自定义地址 包含：黑龙江,吉林,云南 包含：甘肃 包含：甘肃,黑龙江,吉林,辽宁,宁夏,青海 包含：北京,深圳,上海 包含：海南
+  Class:       ToProvince
+  Type:        select-one
+  Placeholder: 
+  ID:          selectToProvince
+  Name:        ToProvince
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: search_one_labelOne wu-selectSystemWrap2
+
+--- 点击 #30 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #31 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       Product
+  Type:        checkbox
+  Placeholder: 
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: flexAJ wu-checkboxWrap
+
+--- 输入 #12 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       on
+  Class:       Product
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+
+--- 点击 #32 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量指定厂家
+  Class:       ManualCheck WxVideo_Supplier_hide
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #33 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SPAN
+  Text:        13081481466(陈坡乡-土鸡蛋)
+  Class:       selectMore-choose-title
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: isRadio wu-mR0
+
+--- 点击 #34 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       selectWrap-search-input
+  Type:        text
+  Placeholder: 搜索内容
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: electWrap_search_wrap
+
+--- 输入 #13 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 搜索内容
+  Value:       杨建
+  Class:       selectWrap-search-input
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #35 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LABEL
+  Text:        15319999189(70-杨建晋龙)
+  Class:       radio-label
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: list isRadio
+
+--- 点击 #36 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        确定
+  Class:       layui-layer-btn0
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-layer-btn layui-layer-btn-
+
+--- 点击 #37 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       ProductCargoNumberInput MultipleQuery activeInput
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchTooltipWrap
+
+--- 点击 #38 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       ProductCargoNumberInput MultipleQuery activeInput
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchTooltipWrap
+
+--- 点击 #39 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        重置
+  Class:       layui-btn layui-btn-primary wu-btn wu-btn-mid wu-primary
+  Type:        button
+  Placeholder: 
+  ID:          ResetConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #40 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #41 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       ProductCargoNumberInput MultipleQuery
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: searchTooltipWrap
+
+--- 输入 #14 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 多个商品编码(,)或换行分隔
+  Value:       陈坡
+  Class:       ProductCargoNumberInput MultipleQuery
+  ID:          
+  Name:        ProductCargoNumber
+  ARIA Label:  
+
+--- 点击 #42 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #43 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       Product
+  Type:        checkbox
+  Placeholder: 
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: flexAJ wu-checkboxWrap
+
+--- 输入 #15 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       on
+  Class:       Product
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+
+--- 点击 #44 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量指定厂家
+  Class:       ManualCheck WxVideo_Supplier_hide
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #45 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         SPAN
+  Text:        15319999189(70-杨建晋龙)
+  Class:       selectMore-choose-title
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: isRadio wu-mR0
+
+--- 点击 #46 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       selectWrap-search-input
+  Type:        text
+  Placeholder: 搜索内容
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: electWrap_search_wrap
+
+--- 输入 #16 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 搜索内容
+  Value:       陈坡
+  Class:       selectWrap-search-input
+  ID:          
+  Name:        
+  ARIA Label:  
+
+--- 点击 #47 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LABEL
+  Text:        13081481466(陈坡乡-土鸡蛋)
+  Class:       radio-label
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: list isRadio
+
+--- 点击 #48 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        确定
+  Class:       layui-layer-btn0
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-layer-btn layui-layer-btn-
+
+--- 点击 #49 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        重置
+  Class:       layui-btn layui-btn-primary wu-btn wu-btn-mid wu-primary
+  Type:        button
+  Placeholder: 
+  ID:          ResetConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #50 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #51 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       ProductSubjectInput MultipleQuery
+  Type:        text
+  Placeholder: 多个商品名称(,)或换行分隔
+  ID:          
+  Name:        ProductSubject
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: search_one_labelOne wu-contractBox warn-label
+
+--- 输入 #17 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        text
+  Placeholder: 多个商品名称(,)或换行分隔
+  Value:       60g
+  Class:       ProductSubjectInput MultipleQuery
+  ID:          
+  Name:        ProductSubject
+  ARIA Label:  
+
+--- 点击 #52 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #53 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Text:        
+  Class:       Product
+  Type:        checkbox
+  Placeholder: 
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: flexAJ wu-checkboxWrap
+
+--- 输入 #18 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         INPUT
+  Type:        checkbox
+  Placeholder: 
+  Value:       on
+  Class:       Product
+  ID:          allcheckorder
+  Name:        
+  ARIA Label:  
+
+--- 点击 #54 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         LI
+  Text:        批量卖家备注?
+  Class:       UpdateOrderSellerRemark WxVideo_Supplier_hide
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new-export-btnShow
+
+--- 点击 #55 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         TEXTAREA
+  Text:        
+  Class:       
+  Type:        textarea
+  Placeholder: 请输入备注信息
+  ID:          txt_area_seller_remark_flag
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: new_reamrk_box
+
+--- 输入 #19 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         TEXTAREA
+  Type:        textarea
+  Placeholder: 请输入备注信息
+  Value:       发顺丰
+  Class:       
+  ID:          txt_area_seller_remark_flag
+  Name:        
+  ARIA Label:  
+
+--- 点击 #56 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         A
+  Text:        保存
+  Class:       layui-layer-btn0
+  Type:        
+  Placeholder: 
+  ID:          
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: layui-layer-btn layui-layer-btn-
+
+--- 点击 #57 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        重置
+  Class:       layui-btn layui-btn-primary wu-btn wu-btn-mid wu-primary
+  Type:        button
+  Placeholder: 
+  ID:          ResetConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
+
+--- 点击 #58 ---
+  URL:         https://fxdd.dgjapp.com/NewOrder/AllOrder?token=30D5679132ED36B60AAB8D1A052E7BD9&dbname=wdJM8OZZiF4gKKxb82bFQh5Eh6iRqVN3&traceId=17c9d83085e72cd6&dataFlag=&IsCustomerOrder=false&FxPageType=1&_=1778324
+  Tag:         BUTTON
+  Text:        查询
+  Class:       layui-btn layui-btn-normal wu-btn wu-btn-mid wu-primary wu-two
+  Type:        button
+  Placeholder: 
+  ID:          SeachConditions
+  Name:        
+  ARIA Label:  
+  Role:        
+  Href:        
+  Data-TestID: 
+  ParentClass: 
