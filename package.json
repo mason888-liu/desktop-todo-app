@@ -15,5 +15,35 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^42.0.0"
-  }
+  },
+  "dependencies": {
+    "buffer-crc32": "^0.2.13",
+    "debug": "^4.4.3",
+    "end-of-stream": "^1.4.5",
+    "env-paths": "^3.0.0",
+    "extract-zip": "^2.0.1",
+    "fd-slicer": "^1.1.0",
+    "get-stream": "^5.2.0",
+    "graceful-fs": "^4.2.11",
+    "ms": "^2.1.3",
+    "once": "^1.4.0",
+    "pend": "^1.2.0",
+    "playwright": "^1.59.1",
+    "progress": "^2.0.3",
+    "pump": "^3.0.4",
+    "semver": "^7.7.4",
+    "sumchecker": "^3.0.1",
+    "undici": "^7.25.0",
+    "undici-types": "^7.16.0",
+    "wrappy": "^1.0.2",
+    "yauzl": "^2.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mason888-liu/desktop-todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mason888-liu/desktop-todo-app/issues"
+  },
+  "homepage": "https://github.com/mason888-liu/desktop-todo-app#readme"
 }

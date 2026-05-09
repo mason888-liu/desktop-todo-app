@@ -1,3 +1,5 @@
 node_modules/
 todos.json
 *.log
+order_automation/auth.json
+order_automation/config.yaml
